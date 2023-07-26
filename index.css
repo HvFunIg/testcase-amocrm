@@ -10,13 +10,11 @@
 body{
     background: rgba(14, 16, 20, 1);
     font-family: 'Inter', sans-serif;
-
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2em;
-
-    color: var(--text-color);
+    color: var(--text-color, #E4E5EA);
     padding: 0 150px;
     min-height: 100vh;
     display: flex;
@@ -43,7 +41,7 @@ address{
 button{
     background: rgba(64, 119, 243, 1);
     padding: 20px 35px;
-    color: var(--text-color);
+    color: var(--text-color, #E4E5EA);
     margin-top: 60px;
     transition: all .4s ease;
     border: none;
@@ -76,18 +74,17 @@ h1{
     font-weight: 400;
     font-size: 48px;
     line-height: 1.2em;
-    color: var(--text-color);
+    color: var(--text-color, #E4E5EA);
 }
 h1 span{
     font-weight: 900;
-     background: var(--gradient);
+     background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
     display: block;
     width: fit-content;
-    
 }
 nav{
     display: flex;
@@ -215,7 +212,7 @@ svg:hover stop:last-child {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.2em;
-    color: #E4E5EA;
+    color: var(--text-color, #E4E5EA);
     width: 300px;
 }
 .footer__container{
@@ -265,7 +262,7 @@ svg:hover stop:last-child {
 .footer__links_content > a{
     min-width: 185px;
     margin-top: 10px;
-    color: var(--light-text, #E4E5EA);
+    color: 
 }
 .footer__links_header{
     width: 100%;
@@ -383,7 +380,7 @@ svg:hover stop:last-child {
         height: 1px;
         top: 50%;
         left:-15px;
-        background: var(--gradient);
+        background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
     }
     .footer__container{
         flex-direction: column;
