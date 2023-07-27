@@ -1,4 +1,4 @@
-# Тестовое задание в amoCRM
+# Тестовое задание в amoCRM (2 часть)
 
 **Задание:** Сверстать страницу по 
 [макету в Figma](https://www.figma.com/file/ja6QtJ9gv2JuxSDIAClL1O/Welbex?node-id=0%3A9&mode=dev)
